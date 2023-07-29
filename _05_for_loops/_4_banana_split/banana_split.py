@@ -12,8 +12,8 @@
 
 from tkinter import *
 import tkinter as tk
-
-root = tk.Tk()
+if __name__ == "__main__":
+    root = tk.Tk()
 
 canvas = tk.Canvas(root, width=200, height=200, bg="#FF00FF");
 canvas.grid()

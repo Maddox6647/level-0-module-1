@@ -1,4 +1,4 @@
-from tkinter import messagebox, simpledialog, Tk
+from tkinter import messagebox, Tk, simpledialog
 
 
 
@@ -8,6 +8,7 @@ if __name__ == '__main__':
     window.withdraw()
 
     birthday = simpledialog.askstring(title='bob', prompt='when was ur birthday???')
-    if birthday == 'July 21, 2023':
+    if birthday == 'July 28, 2023':
         messagebox.showinfo(title='nothing', message='hope you have an awesome birthday')
-    if birthday
+    else:
+        messagebox.showinfo(title='bobby1545', message='hope you have a very merry unbirthday!')
