@@ -17,7 +17,11 @@ if __name__ == "__main__":
 
 canvas = tk.Canvas(root, width=200, height=200, bg="#FF00FF");
 canvas.grid()
-
+banana = 'ice cream'
+for i in range(4):
+    if i == 3:
+        banana = 'banana'
+    canvas.create_text(100, (30 *i)+50, text=banana, font=("Arial", 16))
 '''
 Text Rendering Example:
                     x    y                                                       

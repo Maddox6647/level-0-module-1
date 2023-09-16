@@ -5,7 +5,7 @@ if __name__ == "__main__":
 
     window.withdraw()
 
-    name = simpledialog.askstring(title='remarkable', prompt='what is you name?')
+    name = simpledialog.askstring(title='remarkable', prompt='what is ur name?')
     if name == name:
-        messagebox.showinfo(title='remarkable', message='' + name + ', you are remarkable because you are nice')
+        messagebox.showinfo(title='remarkable', message='' + name + ', you are remarkable because you are fat')
 
