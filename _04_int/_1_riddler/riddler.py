@@ -23,12 +23,21 @@ if __name__ == "__main__":
         if donkey == 'SHREK':
             messagebox.showinfo(title='er', message='U WIN!!!!!!')
         else:
-            messagebox.showinfo(title='ballz', message='U FAILURE')
+            messagebox.showinfo(title='ballz', message='U FAILURE!!!')
 
     elif shrek == 'muppit':
-        MATTHEW = simpledialog.askstring(title='boo', prompt=' what is a muppit that is as dumb as a frog but as big as an arm')
+        MATTHEW = simpledialog.askstring(title='boo', prompt=' what is as green as a grape but as sus as a frog')
         if MATTHEW == 'KERMIT THE FROG':
             messagebox.showinfo(title='shrek', message='lol that just luck')
+        else:
+            messagebox.showinfo(title='woman', message='U SUCK SO BAD!!!')
+
+    elif shrek == 'sus':
+        SUSSY_BAKA = simpledialog.askstring(title=':)', prompt='I have 2 legs but no arms. What am I?')
+        if SUSSY_BAKA == 'AMOGUS':
+            messagebox.showinfo(title=':()', message='BRUH U HACKING!!!!!!!!!!!!!')
+        else:
+            messagebox.showinfo(title='sdfghasdfghjkdfghjkfghjzfugasfkhdfasgkuydsfkfdslhkygyuguykg', message='HAW HAW HAW!!! U ACTUALLY R NOW GAY!!!!!')
 
 
 
